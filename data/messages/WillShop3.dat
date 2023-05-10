@@ -1,0 +1,14 @@
+{
+    "repeats": false,
+    "messages": [
+        [
+            "*sight* I'm startin' to think they have a problem with you, specifically.",
+            "My clientele is... rather violent, not denyin' that. But they have a focus on you. I wonder why.",
+            "Are you a fugitive? Does someone have money on your head?",
+			"Anyway, are you havin' anything? You are the only client left anyway."
+        ],
+        [
+            "Anything else?"
+        ]
+    ]
+}

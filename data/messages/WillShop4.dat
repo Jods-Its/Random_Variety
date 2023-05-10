@@ -1,0 +1,14 @@
+{
+    "repeats": false,
+    "messages": [
+        [
+            "You know? I'm startin' to like your company.",
+            "I mean, I still don't like the fightin' in here, but you're defendin' yourself, and you always come back.",
+            "The bounty on your head must be high. I'm not complainin' tho, a client is a client, after all.",
+			"Are you sure you don't want to help me clean the floors? Or help me with the bodies. Guess not, but I had to try."
+        ],
+        [
+            "Anything else?"
+        ]
+    ]
+}

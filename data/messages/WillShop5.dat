@@ -1,0 +1,13 @@
+{
+    "repeats": false,
+    "messages": [
+        [
+            "Hey! Welcome back.",
+            "Don't worry about the mess, I hired someone to take care of it.",
+			"What are you havin' tonight?."
+        ],
+        [
+            "Anything else?"
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "repeats": false,
+    "messages": [
+        [
+            "Again?!? I even put up a sign! Fightin' is forbidden!",
+            "Now I will have to scrub all that blood again.",
+            "You know what? It doesn't matter.",
+			"Are you havin' anything?"
+        ],
+        [
+            "*sight* Anything else?"
+        ]
+    ]
+}

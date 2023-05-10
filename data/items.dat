@@ -1,0 +1,207 @@
+{
+		"food": [
+			{
+				"class": "com.interrupt.dungeoneer.entities.items.Food",
+				"itemType": "potion",
+				"foodType": "food",
+				"foodMod": 1.0,
+				"tex": 0,
+				"spriteAtlas":"Items_Sheet",
+				"name": "Grilled steak",
+				"description": "Grilled on a campfire. A bit salty.",
+				"yOffset": -0.11,
+				"cost": 30
+			},
+			{
+				"class": "com.interrupt.dungeoneer.entities.items.Food",
+				"itemType": "potion",
+				"foodType": "booze",
+				"foodMod": 1.0,
+				"tex": 1,
+				"spriteAtlas":"Items_Sheet",
+				"name": "Wine",
+				"description": "Fine beverage made of fermented grapes. Is this still good?",
+				"yOffset": -0.06,
+				"cost": 30,
+				"pickupSound": "pu_glass.mp3",
+				"dropSound": "drops/drop_glass_01.mp3,drops/drop_glass_02.mp3,drops/drop_glass_03.mp3"
+			},
+			{
+				"class": "com.interrupt.dungeoneer.entities.items.Food",
+				"itemType": "potion",
+				"foodType": "booze",
+				"foodMod": 1.0,
+				"tex": 2,
+				"spriteAtlas":"Items_Sheet",
+				"name": "Rum",
+				"description": "Thieves' favorite. Looks ancient, but smells sweet.",
+				"yOffset": -0.06,
+				"cost": 30,
+				"pickupSound": "pu_glass.mp3",
+				"dropSound": "drops/drop_glass_01.mp3,drops/drop_glass_02.mp3,drops/drop_glass_03.mp3"
+			},
+			{
+				"class": "com.interrupt.dungeoneer.entities.items.Food",
+				"itemType": "potion",
+				"foodType": "food",
+				"foodMod": 1.0,
+				"consumeSound": "cons_drink.mp3"
+				"tex": 7,
+				"spriteAtlas":"Items_Sheet",
+				"name": "Water",
+				"description": "Clear and refreshing. Disease free.",
+				"yOffset": -0.06,
+				"cost": 30,
+				"pickupSound": "pu_glass.mp3",
+				"dropSound": "drops/drop_glass_01.mp3,drops/drop_glass_02.mp3,drops/drop_glass_03.mp3"
+			},
+			{
+				"class": "com.interrupt.dungeoneer.entities.items.Food",
+				"itemType": "potion",
+				"foodType": "food",
+				"foodMod": 0.3,
+				"tex": 17,
+				"spriteAtlas":"Items_Sheet",
+				"name": "Yellow Apple",
+				"description": "apple.description",
+				"yOffset": -0.11,
+				"cost": 30
+			},
+			{
+				"class": "com.interrupt.dungeoneer.entities.items.Food",
+				"itemType": "potion",
+				"foodType": "food",
+				"foodMod": 0.3,
+				"tex": 18,
+				"spriteAtlas":"Items_Sheet",
+				"name": "Green Apple",
+				"description": "apple.description",
+				"yOffset": -0.11,
+				"cost": 30
+			},
+			{
+				"class": "com.interrupt.dungeoneer.entities.items.Food",
+				"itemType": "potion",
+				"foodType": "booze",
+				"consumeSound": "cons_food.mp3",
+				"foodMod": 1.0,
+				"tex": 19,
+				"spriteAtlas":"Items_Sheet",
+				"name": "Golden Apple",
+				"description": "Made out of gold. Could kill the doctors.",
+				"yOffset": -0.11,
+				"cost": 30,
+				"pickupSound": "pu_gold.mp3",
+				"dropSound": "drops/drop_gold.mp3"
+			},
+			{
+				"class": "com.interrupt.dungeoneer.entities.items.Food",
+				"itemType": "potion",
+				"foodType": "booze",
+				"foodMod": 1.0,
+				"tex": 69,
+				"name": "Ale",
+				"description": "ale.description",
+				"yOffset": -0.06,
+				"cost": 30,
+				"pickupSound": "pu_glass.mp3",
+				"dropSound": "drops/drop_glass_01.mp3,drops/drop_glass_02.mp3,drops/drop_glass_03.mp3"
+			}
+		],
+		"junk": [
+			 {
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration", 
+				"itemType": "junk",
+				"collision": { "x": 0.1, "y": 0.1, "z": 0.2 }, 
+				"tex": 8, "inventoryTex": 8, "heldTex": 8, 
+				"spriteAtlas":"Items_Sheet",
+				"name": "Oblong bottle",				
+				"yOffset": -0.125,
+				"pickupSound": "pu_glass.mp3",
+				"dropSound": "drops/drop_glass_01.mp3,drops/drop_glass_02.mp3,drops/drop_glass_03.mp3"
+			},
+			{
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration", 
+				"itemType": "junk",
+				"collision": { "x": 0.1, "y": 0.1, "z": 0.2 }, 
+				"tex": 9, "inventoryTex": 9, "heldTex": 9,
+				"spriteAtlas":"Items_Sheet",
+				"name": "Small bottle",				
+				"yOffset": -0.125,
+				"pickupSound": "pu_glass.mp3",
+				"dropSound": "drops/drop_glass_01.mp3,drops/drop_glass_02.mp3,drops/drop_glass_03.mp3"
+			},
+			{
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration", 
+				"itemType": "junk",
+				"collision": { "x": 0.1, "y": 0.1, "z": 0.2 }, 
+				"tex": 10, "inventoryTex": 10, "heldTex": 10,
+				"spriteAtlas":"Items_Sheet",
+				"name": "Large bottle",				
+				"yOffset": -0.125,
+				"pickupSound": "pu_glass.mp3",
+				"dropSound": "drops/drop_glass_01.mp3,drops/drop_glass_02.mp3,drops/drop_glass_03.mp3"
+			},
+			{
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration", 
+				"itemType": "junk",
+				"collision": { "x": 0.1, "y": 0.1, "z": 0.2 }, 
+				"tex": 11, "inventoryTex": 11, "heldTex": 11,
+				"spriteAtlas":"Items_Sheet",
+				"name": "Round bottle",				
+				"yOffset": -0.125,
+				"pickupSound": "pu_glass.mp3",
+				"dropSound": "drops/drop_glass_01.mp3,drops/drop_glass_02.mp3,drops/drop_glass_03.mp3"
+			},
+			{
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration", 
+				"itemType": "junk",
+				"collision": { "x": 0.1, "y": 0.1, "z": 0.2 }, 
+				"tex": 12, "inventoryTex": 12, "heldTex": 12,
+				"spriteAtlas":"Items_Sheet",
+				"name": "Cushy bottle",				
+				"yOffset": -0.125,
+				"pickupSound": "pu_glass.mp3",
+				"dropSound": "drops/drop_glass_01.mp3,drops/drop_glass_02.mp3,drops/drop_glass_03.mp3"
+			},
+			{
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration", 
+				"itemType": "junk",
+				"collision": { "x": 0.1, "y": 0.1, "z": 0.2 }, 
+				"tex": 13, "inventoryTex": 13, "heldTex": 13,
+				"spriteAtlas":"Items_Sheet",
+				"name": "Narrow bottle",				
+				"yOffset": -0.125,
+				"pickupSound": "pu_glass.mp3",
+				"dropSound": "drops/drop_glass_01.mp3,drops/drop_glass_02.mp3,drops/drop_glass_03.mp3"
+			},
+			{
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration", 
+				"itemType": "junk",
+				"collision": { "x": 0.1, "y": 0.1, "z": 0.2 }, 
+				"tex": 14, "inventoryTex": 14, "heldTex": 14,
+				"spriteAtlas":"Items_Sheet",
+				"name": "Diamond bottle",				
+				"yOffset": -0.125,
+				"pickupSound": "pu_glass.mp3",
+				"dropSound": "drops/drop_glass_01.mp3,drops/drop_glass_02.mp3,drops/drop_glass_03.mp3"
+			},
+			{
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration", 
+				"itemType": "junk",
+				"collision": { "x": 0.07, "y": 0.07, "z": 0.37 }, 
+				"tex": 15,
+				"spriteAtlas":"Items_Sheet",
+				"name": "Candlestick"
+			},
+			{
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration", 
+				"itemType": "junk",
+				"collision": { "x": 0.1, "y": 0.1, "z": 0.2 }, 
+				"tex": 16, 
+				"spriteAtlas":"Items_Sheet",
+				"name": "Paper",				
+				"yOffset": -0.125
+			}
+		]
+}

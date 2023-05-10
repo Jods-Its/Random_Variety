@@ -1,0 +1,55 @@
+{
+   "repeats": true,
+   "pickRandom": true,
+   "messages": [
+	[
+		"An old book in common language. You can read it. There's a leaf on the cover.",
+		"This book is about wild herbs and plants for medicinal purposes. It depicts drawings of a variety of species, and describes how to extract, cultivate and use them.",
+		"A real shame is of no use, as none of them grow down here."
+	],
+	[
+		"An old book in common language. You can read it. There's a hammer on the cover.",
+		"This book is about the art of smithing. It describes processes to forge and repair all sorts of tools and weapons.",
+		"You have no smithing skills, but a whetstone could come in handy, that's for sure."
+	],
+	[
+		"An old book in common language. You can read it. It's a bit stained with clay.",
+		"This one is about potery. There are several notes about how to properly create, dry and paint pots.",
+		"Is this why there's so many pots laying around?."
+	],
+	[
+		"A notebook in common language. You can read it. Looks mundane.",
+		"A simple accounting notebook, filled with lists, numbers and names.",
+		"Whoever owned this probably had an addiction to coffee."
+	],
+	[
+		"An old journal, maybe from another traveler. It's quite worn.",
+		"It's filled with ghost stories and conspiracy theories, written by someone with severe paranoia."
+	],
+	[
+		"An ancient tome in old common, you can make some sense out of it. There's a strange symbol on the cover.",
+		"Is an alchemy book that, from the looks of it, teach you how to make and mix potions.",
+		"The fact that you only understand half of it discourages you to try alchemy."
+	],
+	[
+		"An ancient tome in old common, you can make some sense out of it. There's a bottle on the cover.",
+		"Is a glass making book, teaching how to safely make blown glass bottles and decorative pieces, or that appears to be.",
+		"Were you thinking about taking up a new hobby?."
+	],
+	[
+		"An ancient tome, written in Oldhand. You can't read it nor understand it.",
+		"A translator might help you, but it'll take time."
+	],
+	[
+		"An ancient dusty tome, completely illegible.",
+		"Looks like time hasn't been kind with it."
+	],
+	[
+		"An ancient moldy tome, completely illegible.",
+		"Looks like it got soaked sometime in the past."
+	],
+	[
+		"This book is completely blank. That's odd."
+	]
+   ]
+}

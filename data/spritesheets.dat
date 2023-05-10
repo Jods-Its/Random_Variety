@@ -1,0 +1,28 @@
+[
+	{
+		"columns": 8,
+		"filename": "Items_Sheet.png",
+		"scale": 0.5,
+		"name": "Items_Sheet"
+		"y_offset": 0.18
+	},
+	{
+		"columns": 16,
+		"filename": "Dungeon_Sheet.png",
+		"scale": 1,
+		"name": "Dungeon_Sheet"
+	},
+	{
+		"columns": 16,
+		"filename": "NPCsRV_Sheet.png",
+		"scale": 1,
+		"name": "NPCsRV_Sheet"
+	},
+	{
+        "columns": 8,
+        "filename": "forest_items.png",
+        "scale": 0.5,
+        "name": "forest_items",
+        "y_offset": 0.25
+    	}
+]

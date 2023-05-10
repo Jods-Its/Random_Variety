@@ -1,0 +1,47 @@
+{
+   "repeats": true,
+   "pickRandom": true,
+   "messages": [
+	[
+		"If you want something, sit on the stools in front of me."
+	],
+	[
+		"I don't serve drinks at this side of the counter."
+	],
+	[
+		"I can see you snoopin' around, get out."
+	],
+	[
+		"If you want a room, sorry. They're closed for the moment.",
+		"Someone decided it was a good idea to destroy the place."
+	],
+	[
+		"A piece of advice:",
+		"Don't drink nor eat things unknown to you."
+	],
+	[
+		"They're good, 'ight? The musicians I mean.",
+		"They're pricey, but I can't imagine this place without music.",
+		"Treat 'em well."
+	],
+	[
+		"I know the floors are full of dirt and plants. No need to remind me.",
+		"No matter what I do they keep apearin'. It's impossible to keep this place clean",
+		"I guess that's the trouble with settin' up a tavern in an abandoned place."
+	],
+	[
+		"Have you met Jeff and Joff? The merchant twin brothers.",
+		"Those two fight from time to time, but they're good lads. Buy them somethin' if you can spare some gold."
+	],
+	[
+		"If you want a drink, sit in front of me."
+	],
+	[
+		"Are you headin' to the ruins? I suggest you stock up on drinks for the descent."
+	],
+	[
+		"If you talk to the scholar outside, give him my regards.",
+		"He is too philosophical and talks nonsense but... I have to admit he has a taste for drinks."
+	]
+   ]
+}

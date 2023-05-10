@@ -1,0 +1,453 @@
+{
+	"entities":{
+	    "Ambient Sounds": {
+            "Chains": {
+                "class": "com.interrupt.dungeoneer.entities.AmbientSound",
+                "id": "",
+                "volume": 0.325,
+                "radius": 7,
+                "soundFile": "/ambient/chain_jingle.mp3"
+            }
+		},
+		"Clutter":{
+		    "Random_Clutter": {
+                "class": "com.interrupt.dungeoneer.entities.Prefab",
+                "category": "Clutter",
+                "name": "Candle_1,Tankard,Bowl,Cup,Plate,Skull,Book_1,Book_2,Book_3,Gold_Candlestick,Bottle_1,Bottle_2,Bottle_3,Bottle_4,Bottle_5,Bottle_6,Bottle_7,Candlestick,
+						Paper,Asorted_Notes,Asorted_Notes,Asorted_Notes,Asorted_Notes,Pot_01,Pot_02,Pot_03,Pot_04,Pot_05,Pot_06,Cup_01,Chalice_01,Chalice_02,Chalice_03"
+            },
+			"Asorted_Notes":{
+				"class": "com.interrupt.dungeoneer.entities.Prefab",
+                "category": "Clutter",
+				"name": "Note,BottleNote, WrittenBook1, WrittenBook2, WrittenBook3"
+			},
+			"Asorted_Pots":{
+				"class": "com.interrupt.dungeoneer.entities.Prefab",
+                "category": "Clutter",
+				"name": "Pot_01,Pot_02,Pot_03,Pot_04,Pot_05,Pot_06"
+			},
+			"Asorted_Bottles":{
+				"class": "com.interrupt.dungeoneer.entities.Prefab",
+                "category": "Clutter",
+				"name": "Bottle_1,Bottle_2,Bottle_3,Bottle_4,Bottle_5,Bottle_6,Bottle_7"
+			},
+			"Candlestick_Set":{
+				"class": "com.interrupt.dungeoneer.entities.Prefab",
+                "category": "Clutter",
+				"name": "Gold_Candlestick,Candlestick,Candlestick,Candlestick,Candlestick,Candlestick,Candlestick,Candlestick,Candlestick,Candlestick"
+			},
+			"Goblet_Set":{
+				"class": "com.interrupt.dungeoneer.entities.Prefab",
+                "category": "Clutter",
+				"name": "Chalice_01,Chalice_01,Chalice_01,Chalice_01,Chalice_01,Chalice_01,Chalice_01,Chalice_01,Chalice_01,Chalice_01,Chalice_01,Chalice_01,Chalice_01,Chalice_01,Chalice_02,Chalice_03"
+			},
+			"Bottle_1": {
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration",
+                "tex": 8,
+				"spriteAtlas": "Items_Sheet",
+                "yOffset": -0.14,
+                "collision": { "x": 0.1, "y": 0.1, "z": 0.2 },
+                "itemType": "junk",
+                "inventoryTex": 8,
+                "name": "Oblong bottle",
+				"pickupSound": "pu_glass.mp3",
+				"dropSound": "drops/drop_glass_01.mp3,drops/drop_glass_02.mp3,drops/drop_glass_03.mp3"
+			},
+			"Bottle_2": {
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration",
+                "tex": 9,
+				"spriteAtlas": "Items_Sheet",
+                "yOffset": -0.14,
+                "collision": { "x": 0.1, "y": 0.1, "z": 0.2 },
+                "itemType": "junk",
+                "inventoryTex": 9,
+                "name": "Small bottle",
+				"pickupSound": "pu_glass.mp3",
+				"dropSound": "drops/drop_glass_01.mp3,drops/drop_glass_02.mp3,drops/drop_glass_03.mp3"
+			},
+			"Bottle_3": {
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration",
+                "tex": 10,
+				"spriteAtlas": "Items_Sheet",
+                "yOffset": -0.14,
+                "collision": { "x": 0.1, "y": 0.1, "z": 0.2 },
+                "itemType": "junk",
+                "inventoryTex": 10,
+                "name": "Large bottle",
+				"pickupSound": "pu_glass.mp3",
+				"dropSound": "drops/drop_glass_01.mp3,drops/drop_glass_02.mp3,drops/drop_glass_03.mp3"
+			},
+			"Bottle_4": {
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration",
+                "tex": 11,
+				"spriteAtlas": "Items_Sheet",
+                "yOffset": -0.14,
+                "collision": { "x": 0.1, "y": 0.1, "z": 0.2 },
+                "itemType": "junk",
+                "inventoryTex": 11,
+                "name": "Round bottle",
+				"pickupSound": "pu_glass.mp3",
+				"dropSound": "drops/drop_glass_01.mp3,drops/drop_glass_02.mp3,drops/drop_glass_03.mp3"
+			},
+			"Bottle_5": {
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration",
+                "tex": 12,
+				"spriteAtlas": "Items_Sheet",
+                "yOffset": -0.14,
+                "collision": { "x": 0.1, "y": 0.1, "z": 0.2 },
+                "itemType": "junk",
+                "inventoryTex": 12,
+                "name": "Cushy bottle",
+				"pickupSound": "pu_glass.mp3",
+				"dropSound": "drops/drop_glass_01.mp3,drops/drop_glass_02.mp3,drops/drop_glass_03.mp3"
+			},
+			"Bottle_6": {
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration",
+                "tex": 13,
+				"spriteAtlas": "Items_Sheet",
+                "yOffset": -0.14,
+                "collision": { "x": 0.1, "y": 0.1, "z": 0.2 },
+                "itemType": "junk",
+                "inventoryTex": 13,
+                "name": "Narrow bottle",
+				"pickupSound": "pu_glass.mp3",
+				"dropSound": "drops/drop_glass_01.mp3,drops/drop_glass_02.mp3,drops/drop_glass_03.mp3"
+			},
+			"Bottle_7": {
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration",
+                "tex": 14,
+				"spriteAtlas": "Items_Sheet",
+                "yOffset": -0.14,
+                "collision": { "x": 0.1, "y": 0.1, "z": 0.2 },
+                "itemType": "junk",
+                "inventoryTex": 14,
+                "name": "Diamond bottle",
+				"pickupSound": "pu_glass.mp3",
+				"dropSound": "drops/drop_glass_01.mp3,drops/drop_glass_02.mp3,drops/drop_glass_03.mp3"
+			},
+			"Cup_01": {
+                "class": "com.interrupt.dungeoneer.entities.items.Decoration",
+                "tex": 31,
+				"spriteAtlas": "Items_Sheet",
+                "yOffset": -0.125,
+                "collision": { "x": 0.1, "y": 0.1, "z": 0.2 },
+                "itemType": "junk",
+				"inventoryTex": 31,
+                "name": "Cup"
+            },
+			"Chalice_01": {
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration",
+                "tex": 32,
+				"spriteAtlas": "Items_Sheet",
+                "collision": { "x": 0.07, "y": 0.07, "z": 0.37 },
+                "itemType": "junk",
+                "inventoryTex": 32,
+                "name": "Goblet"
+			},
+			"Chalice_02": {
+                "class": "com.interrupt.dungeoneer.entities.items.Gold",
+                "tex": 33,
+				"yOffset": -0.1,
+				"spriteAtlas": "Items_Sheet",
+                "collision": { "x": 0.07, "y": 0.07, "z": 0.37 },
+                "pickupSound": "pu_gold.mp3",
+                "name": "Gilded goblet",
+                "goldAmount": 10
+            },
+			"Chalice_03": {
+                "class": "com.interrupt.dungeoneer.entities.items.Gold",
+                "tex": 34,
+				"yOffset": -0.1,
+				"spriteAtlas": "Items_Sheet",
+                "collision": { "x": 0.07, "y": 0.07, "z": 0.37 },
+                "pickupSound": "pu_gold.mp3",
+                "name": "Jeweled goblet",
+                "goldAmount": 20
+            },
+			"Candlestick": {
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration",
+                "tex": 15,
+				"spriteAtlas": "Items_Sheet",
+                "collision": { "x": 0.07, "y": 0.07, "z": 0.37 },
+                "itemType": "junk",
+                "inventoryTex": 15,
+                "name": "Candlestick"
+			},
+			"Pot_01": {
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration",
+                "tex": 25,
+				"spriteAtlas": "Items_Sheet",
+                "yOffset": -0.14,
+                "collision": { "x": 0.1, "y": 0.1, "z": 0.2 },
+                "itemType": "junk",
+                "inventoryTex": 25,
+                "name": "Pot",
+				"pickupSound": "pu_pot.mp3",
+				"dropSound": "drops/drop_pot_01.mp3,drops/drop_pot_02.mp3,drops/drop_pot_03.mp3"
+			},
+			"Pot_02": {
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration",
+                "tex": 26,
+				"spriteAtlas": "Items_Sheet",
+                "yOffset": -0.14,
+                "collision": { "x": 0.1, "y": 0.1, "z": 0.2 },
+                "itemType": "junk",
+                "inventoryTex": 26,
+                "name": "Pot",
+				"pickupSound": "pu_pot.mp3",
+				"dropSound": "drops/drop_pot_01.mp3,drops/drop_pot_02.mp3,drops/drop_pot_03.mp3"
+			},
+			"Pot_03": {
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration",
+                "tex": 27,
+				"spriteAtlas": "Items_Sheet",
+                "yOffset": -0.14,
+                "collision": { "x": 0.1, "y": 0.1, "z": 0.2 },
+                "itemType": "junk",
+                "inventoryTex": 27,
+                "name": "Pot",
+				"pickupSound": "pu_pot.mp3",
+				"dropSound": "drops/drop_pot_01.mp3,drops/drop_pot_02.mp3,drops/drop_pot_03.mp3"
+			},
+			"Pot_04": {
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration",
+                "tex": 28,
+				"spriteAtlas": "Items_Sheet",
+                "yOffset": -0.14,
+                "collision": { "x": 0.1, "y": 0.1, "z": 0.2 },
+                "itemType": "junk",
+                "inventoryTex": 28,
+                "name": "Pot",
+				"pickupSound": "pu_pot.mp3",
+				"dropSound": "drops/drop_pot_01.mp3,drops/drop_pot_02.mp3,drops/drop_pot_03.mp3"
+			},
+			"Pot_05": {
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration",
+                "tex": 29,
+				"spriteAtlas": "Items_Sheet",
+                "yOffset": -0.14,
+                "collision": { "x": 0.1, "y": 0.1, "z": 0.2 },
+                "itemType": "junk",
+                "inventoryTex": 29,
+                "name": "Pot",
+				"pickupSound": "pu_pot.mp3",
+				"dropSound": "drops/drop_pot_01.mp3,drops/drop_pot_02.mp3,drops/drop_pot_03.mp3"
+			},
+			"Pot_06": {
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration",
+                "tex": 30,
+				"spriteAtlas": "Items_Sheet",
+                "yOffset": -0.14,
+                "collision": { "x": 0.1, "y": 0.1, "z": 0.2 },
+                "itemType": "junk",
+                "inventoryTex": 30,
+                "name": "Pot",
+				"pickupSound": "pu_pot.mp3",
+				"dropSound": "drops/drop_pot_01.mp3,drops/drop_pot_02.mp3,drops/drop_pot_03.mp3"
+			},
+			"Paper": {
+				"class": "com.interrupt.dungeoneer.entities.items.Decoration",
+                "tex": 16,
+				"yOffset": -0.11,
+				"spriteAtlas": "Items_Sheet",
+                "collision": { "x": 0.1, "y": 0.1, "z": 0.2 },
+                "itemType": "junk",
+                "inventoryTex": 16,
+                "name": "Blank paper"
+			},
+			"Note":{
+				"class": "com.interrupt.dungeoneer.entities.items.Note",
+                "tex": 60,
+                "name": "Note",
+                "messageFile": "dungeonNotes/castle.dat"
+			},
+			"BottleNote":{
+				"class": "com.interrupt.dungeoneer.entities.items.Note",
+                "tex": 20,
+				"spriteAtlas": "Items_Sheet",
+                "name": "Bottled note",
+                "messageFile": "dungeonNotes/castle.dat",
+				"pickupSound": "pu_glass.mp3",
+				"dropSound": "drops/drop_glass_01.mp3,drops/drop_glass_02.mp3,drops/drop_glass_03.mp3"
+			},
+			"WrittenBook1":{
+				"class": "com.interrupt.dungeoneer.entities.items.Note",
+                "tex": 21,
+				"spriteAtlas": "Items_Sheet",
+                "name": "Written book",
+                "messageFile": "Books.dat"
+			},
+			"WrittenBook2":{
+				"class": "com.interrupt.dungeoneer.entities.items.Note",
+                "tex": 22,
+				"spriteAtlas": "Items_Sheet",
+                "name": "Written book",
+                "messageFile": "Books.dat"
+			},
+			"WrittenBook3":{
+				"class": "com.interrupt.dungeoneer.entities.items.Note",
+                "tex": 23,
+				"spriteAtlas": "Items_Sheet",
+                "name": "Written book",
+                "messageFile": "Books.dat"
+			}
+		},
+		"Collectables":{
+			"BottleNote":{
+				"class": "com.interrupt.dungeoneer.entities.items.Note",
+                "tex": 20,
+				"spriteAtlas": "Items_Sheet",
+                "name": "Bottled note",
+                "messageFile": "dungeonNotes/castle.dat",
+				"pickupSound": "pu_glass.mp3",
+				"dropSound": "drops/drop_glass_01.mp3,drops/drop_glass_02.mp3,drops/drop_glass_03.mp3"
+			},
+			"WrittenBook1":{
+				"class": "com.interrupt.dungeoneer.entities.items.Note",
+                "tex": 21,
+				"spriteAtlas": "Items_Sheet",
+                "name": "Written book",
+                "messageFile": "Books.dat"
+			},
+			"WrittenBook2":{
+				"class": "com.interrupt.dungeoneer.entities.items.Note",
+                "tex": 22,
+				"spriteAtlas": "Items_Sheet",
+                "name": "Written book",
+                "messageFile": "Books.dat"
+			},
+			"WrittenBook3":{
+				"class": "com.interrupt.dungeoneer.entities.items.Note",
+                "tex": 23,
+				"spriteAtlas": "Items_Sheet",
+                "name": "Written book",
+                "messageFile": "Books.dat"
+			},
+			"Parchment1":{
+			    "class": "com.interrupt.dungeoneer.entities.items.Note",
+                "tex": 24,
+				"spriteAtlas": "Items_Sheet",
+                "name": "Parchment",
+                "noteText": "[image:Parchment1.png]"
+            }	
+		},
+		"Furniture": {
+			"Anvil": {
+				"class": "com.interrupt.dungeoneer.entities.Model",
+                "isSolid": true,
+                "collision": { "x": 0.3, "y": 0.15, "z": 0.3 },
+                "isDynamic": false,
+				"shadowType": "RECTANGLE",
+                "meshFile": "meshes/Anvil.obj",
+                "textureFile": "textures/rv_meshes_dun.png"
+			},
+			"Whetstone": {
+			 "class": "com.interrupt.dungeoneer.entities.Model",
+                "isSolid": true,
+                "collision": { "x": 0.5, "y": 0.225, "z": 0.7 },
+                "isDynamic": false,
+				"shadowType": "RECTANGLE",
+                "meshFile": "meshes/Whetstone.obj",
+                "textureFile": "textures/rv_meshes_dun.png"
+			},
+			"Whetstone_Wheel": {
+				"class": "com.interrupt.dungeoneer.entities.Model",
+                "isSolid": true,
+                "collision": { "x": 0.3, "y": 0.3, "z": 0.15 },
+                "isDynamic": false,
+				"shadowType": "NONE",
+                "meshFile": "meshes/Whetstone_Wheel.obj",
+                "textureFile": "textures/rv_meshes_dun.png"
+			}
+		},
+		"NPCs": {
+			"Guitar_Tavern": {
+                "class": "com.interrupt.dungeoneer.entities.Npc",
+                "tex": 0,
+                "spriteAtlas": "NPCsRV_Sheet",
+                "baseAnimation": { "start": 0, "end": 21, "speed": 180 }
+            },
+			"Will": {
+                "class": "com.interrupt.dungeoneer.entities.Npc",
+                "tex": 112,
+				"spriteAtlas": "NPCsRV_Sheet",
+                "spriteAtlas": "npcs",
+                "baseAnimation": { "start": 112, "end": 112, "speed": 140 },
+                "idleAnimations": [
+                    { "start": 112, "end": 117, "speed": 140 }
+                ]
+            },
+			"Bouzouki_Tavern": {
+				"class": "com.interrupt.dungeoneer.entities.Npc",
+                "tex": 32,
+                "spriteAtlas": "NPCsRV_Sheet",
+                "baseAnimation": { "start": 32, "end": 53, "speed": 200 }
+			},
+			"Bodhran_Tavern": {
+				"class": "com.interrupt.dungeoneer.entities.Npc",
+                "tex": 64,
+                "spriteAtlas": "NPCsRV_Sheet",
+                "baseAnimation": { "start": 64, "end": 79, "speed": 180 }
+			},
+			"Fiddle_Tavern": {
+				"class": "com.interrupt.dungeoneer.entities.Npc",
+                "tex": 80,
+                "spriteAtlas": "NPCsRV_Sheet",
+                "baseAnimation": { "start": 80, "end": 111, "speed": 300 }
+			}
+			
+		},
+		"Surprises":{
+            "Treasure": {
+                "class": "com.interrupt.dungeoneer.entities.Prefab",
+                "category": "Surprises",
+                "name": "Gold_Pile,Gold_Pile,Gold_Pile,Gold_Pile,Gold_Nugget,Gold_Nugget,Gold_Nugget,Gold_Nugget,Gold_Nugget,Gem,Gem,Gem,Gilded_Skull"
+            },
+			"Gilded_Skull": {
+                "class": "com.interrupt.dungeoneer.entities.items.Gold",
+                "tex": 3,
+				"spriteAtlas": "Items_Sheet",
+                "collision": { "x": 0.07, "y": 0.07, "z": 0.125 },
+                "pickupSound": "pu_gold.mp3",
+                "name": "Gilded Skull",
+				"yOffset": -0.06,
+                "goldAmount": 100
+            },
+			"Gem": {
+                "class": "com.interrupt.dungeoneer.entities.Prefab",
+                "category": "Surprises",
+                "name": "Amethyst,Amethyst,Amethyst,Amethyst,Amethyst,Amethyst,Topaz,Topaz,Topaz,Topaz,Topaz,Emerald,Emerald,Emerald,Emerald,Zaphire,Zaphire,Zaphire,Ruby,Ruby,Diamond"
+            },
+			"Zaphire": {
+                "class": "com.interrupt.dungeoneer.entities.items.Gold",
+                "tex": 4,
+				"spriteAtlas": "Items_Sheet",
+                "collision": { "x": 0.07, "y": 0.07, "z": 0.125 },
+                "pickupSound": "pu_gold.mp3",
+                "name": "Zaphire",
+				"yOffset": -0.06,
+                "goldAmount": 30
+            },
+			"Topaz": {
+                "class": "com.interrupt.dungeoneer.entities.items.Gold",
+                "tex": 5,
+				"spriteAtlas": "Items_Sheet",
+                "collision": { "x": 0.07, "y": 0.07, "z": 0.125 },
+                "pickupSound": "pu_gold.mp3",
+                "name": "Topaz",
+				"yOffset": -0.06,
+                "goldAmount": 20
+            },		
+			"Amethyst": {
+                "class": "com.interrupt.dungeoneer.entities.items.Gold",
+                "tex": 6,
+				"spriteAtlas": "Items_Sheet",
+                "collision": { "x": 0.07, "y": 0.07, "z": 0.125 },
+                "pickupSound": "pu_gold.mp3",
+                "name": "Amethyst",
+				"yOffset": -0.06,
+                "goldAmount": 15
+            }			
+		}
+	}
+}

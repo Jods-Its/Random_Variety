@@ -1,0 +1,169 @@
+{
+	"monsters": {
+	"DUNGEON": [
+			{
+                "class": "com.interrupt.dungeoneer.entities.Monster",
+                "tex": 0,
+                "name": "ARCHER",
+				"yOffset": -0.08,
+                "speed": 0.004,
+                "atk": 2,
+                "ranged": true,
+                "keepDistance": true,
+                "maxHp": 2,
+				"spells": [
+                    {
+                        "class": "com.interrupt.dungeoneer.entities.spells.MagicMissile",
+						"castSound": "bow.mp3,bow_02.mp3,bow_03.mp3,bow_04.mp3",
+						"hitSound": "hit.mp3,hit_02.mp3,hit_03.mp3,hit_04.mp3",
+                        "mpCost": 2,
+                        "baseDamage": 2,
+                        "randDamage": 3,
+                        "spellColor": {"class": "com.badlogic.gdx.graphics.Color", "r": 1, "g": 1, "b": 1},
+                        "magicMissileProjectile": {
+                            "class": "com.interrupt.dungeoneer.entities.projectiles.MagicMissileProjectile",
+                            "floating": true,
+                            "fullbrite": false,
+                            "tex": 73,
+							"endAnimTex":73,
+							"spriteAtlas": "items",
+							"splashForce": 0,
+                            "splashRadius": 0,
+                            "attached": [
+                                {"class": "com.interrupt.dungeoneer.entities.SpriteBeam", "tex": 30, "color": {"r": 1, "g": 1, "b": 1}, "yOffset": -0.425, "beamRenderMode": "LINE", "size": 1.5}
+                            ],
+						"explosion": {
+							"explosionStartTex": 36,
+							"explosionEndTex": 39,
+							"explosionAnimSpeed": 15.0,
+							"lightMod": 0.45,
+							"explosionLightStartColor": { "r": 0.9, "g": 0.9, "b": 0.9 },
+							"explosionLightEndColor": { "r": 0.6, "g": 0.6, "b": 0.6 },
+							"explosionLightLifetime": 10,
+							"particleCount": 2,
+							"impulseDistance": 0.4,
+							"impulseAmount": 0.05,
+							"shakeDistance": 0.25,
+							"particleForce": 0.5,
+							"particleTex": 44,
+							"scale": 0.75,
+							"randomRoll": 45.0,
+							"hitDecal": {
+								"tex": 19,
+								"decalWidth": 0.3,
+								"decalHeight": 0.3,
+								"artType": "sprite"
+								}
+							}
+                        }
+                    }
+                ],
+                "walkSound": "mobs/human/human_steps.mp3",
+                "alertSound": "mobs/archer/Archer_Alert_01.mp3,mobs/archer/Archer_Alert_02.mp3,mobs/archer/Archer_Alert_03.mp3",
+                "attackSound": "mobs/archer/Archer_Attack_01.mp3,mobs/archer/Archer_Attack_02.mp3,mobs/archer/Archer_Attack_03.mp3",
+                "dieSound": "mobs/archer/Archer_Die_01.mp3,mobs/archer/Archer_Die_02.mp3,mobs/archer/Archer_Die_03.mp3",
+                "hurtSound": "mobs/archer/Archer_Hurt_01.mp3,mobs/archer/Archer_Hurt_02.mp3,mobs/archer/Archer_Hurt_03.mp3",
+                "idleSound": "mobs/archer/Archer_Idle_01.mp3,mobs/archer/Archer_Idle_02.mp3,mobs/archer/Archer_Idle_03.mp3",
+                "walkAnimation": {"start": 0, "end": 3, "speed": 30},
+                "attackAnimation": {"start": 11, "end": 13, "speed": 30, "actions": {"12": [{"class": "com.interrupt.dungeoneer.gfx.animation.DamageAction"}]}},
+				"castAnimation": {
+                    "start": 4,
+                    "end": 10,
+                    "speed": 30,
+                    "actions": {"8": [{"class": "com.interrupt.dungeoneer.gfx.animation.SpellCastAction"}]}
+                },
+                "hurtAnimation": {"start": 16, "end": 19, "speed": 22},
+                "dieAnimation": {"start": 20, "end": 22, "speed": 30},
+                "spriteAtlas": "Dungeon_Sheet"
+            },
+			{
+                "class": "com.interrupt.dungeoneer.entities.Monster",
+                "tex": 64,
+                "name": "BRAWLER",
+                "speed": 0.0052,
+				"yOffset": -0.07,
+                "atk": 2,
+                "maxHp": 4,
+				"postAttackMoveWaitTime": 0.3,
+				"damageType": "PARALYZE",
+                "walkSound": "mobs/human/human_steps.mp3",
+                "alertSound": "mobs/brawler/Brawler_Alert_01.mp3,mobs/brawler/Brawler_Alert_02.mp3,mobs/brawler/Brawler_Alert_03.mp3",
+                "attackSound": "mobs/brawler/Brawler_Atk_01.mp3,mobs/brawler/Brawler_Atk_02.mp3",
+                "dieSound": "mobs/brawler/Brawler_Die_01.mp3,mobs/brawler/Brawler_Die_02.mp3,mobs/brawler/Brawler_Die_03.mp3",
+                "hurtSound": "mobs/brawler/Brawler_Hurt_01.mp3,mobs/brawler/Brawler_Hurt_02.mp3,mobs/brawler/Brawler_Hurt_03.mp3",
+                "walkAnimation": {"start": 64, "end": 67, "speed": 30},
+                "attackAnimation": {
+					"start": 68, "end": 91, "speed": 120, 
+					"actions": {
+						"71": [{"class": "com.interrupt.dungeoneer.gfx.animation.DamageAction"}],
+						"74": [{"class": "com.interrupt.dungeoneer.gfx.animation.DamageAction"}]
+					}
+				},
+                "hurtAnimation": {"start": 92, "end": 95, "speed": 22},
+                "dieAnimation": {"start": 96, "end": 98, "speed": 22},
+                "spriteAtlas": "Dungeon_Sheet"
+            },
+			{
+				"class": "com.interrupt.dungeoneer.entities.Monster",
+                "tex": 42,
+                "name": "BRUTE",
+				"collision": {"x": 0.3, "y": 0.3, "z": 0.8},
+                "speed": 0.003,
+				"yOffset": -0.08,
+                "atk": 6,
+				"reach": 0.6,
+				"knockback": 0.6,
+                "maxHp": 9,
+                "painChance": 0.25,
+                "walkSound": "mobs/human/human_steps.mp3",
+                "alertSound": "mobs/warrior/Warrior_Alert_01.mp3,mobs/warrior/Warrior_Alert_02.mp3,mobs/warrior/Warrior_Alert_03.mp3,mobs/warrior/Warrior_Alert_04.mp3",
+                "attackSound": "mobs/warrior/Warrior_Atk_01.mp3,mobs/warrior/Warrior_Atk_02.mp3,mobs/warrior/Warrior_Atk_03.mp3",
+                "dieSound": "mobs/warrior/Warrior_Die_01.mp3,mobs/warrior/Warrior_Die_02.mp3,mobs/warrior/Warrior_Die_03.mp3",
+                "hurtSound": "mobs/warrior/Warrior_Hurt_01.mp3,mobs/warrior/Warrior_Hurt_02.mp3,mobs/warrior/Warrior_Hurt_03.mp3",
+                "idleSound": "mobs/warrior/Warrior_Idle_01.mp3,mobs/warrior/Warrior_Idle_02.mp3,mobs/warrior/Warrior_Idle_03.mp3",
+                "walkAnimation": {"start": 32, "end": 35, "speed": 30},
+                "attackAnimation": {
+					"start": 36, "end": 47, "speed": 55, 
+					"actions": {
+						"41": [{"class": "com.interrupt.dungeoneer.gfx.animation.DamageAction"}],
+						"45": [{"class": "com.interrupt.dungeoneer.gfx.animation.DamageAction"}]
+					}
+				},
+                "hurtAnimation": {"start": 48, "end": 51, "speed": 22},
+                "dieAnimation": {"start": 51, "end": 53, "speed": 22},
+                "spriteAtlas": "Dungeon_Sheet"
+			},
+			{
+			    "class": "com.interrupt.dungeoneer.entities.Monster",
+                "tex": 112,
+                "name": "SLAYER",
+				"yOffset": -0.07,
+                "speed": 0.005,
+                "atk": 2,
+                "maxHp": 3,
+                "attackStartDistance": 1.5,
+                "painChance": 1,
+                "walkSound": "mobs/human/human_steps.mp3",
+                "alertSound": "mobs/mage/en_mage_alert_01.mp3,mobs/mage/en_mage_alert_02.mp3,mobs/mage/en_mage_alert_03.mp3",
+                "attackSound": "mobs/mage/en_mage_attack_01.mp3,mobs/mage/en_mage_attack_02.mp3,mobs/mage/en_mage_attack_03.mp3",
+                "dieSound": "mobs/mage/en_mage_die_01.mp3,mobs/mage/en_mage_die_02.mp3,mobs/mage/en_mage_die_03.mp3,mobs/mage/en_mage_die_04.mp3,mobs/mage/en_mage_die_05.mp3",
+                "hurtSound": "mobs/mage/en_mage_hurt_01.mp3,mobs/mage/en_mage_hurt_02.mp3,mobs/mage/en_mage_hurt_03.mp3",
+                "idleSound": "mobs/mage/en_mage_idle_01.mp3,mobs/mage/en_mage_idle_02.mp3,mobs/mage/en_mage_idle_03.mp3",
+                "walkAnimation": {"start": 112, "end": 115, "speed": 30},
+                "attackAnimation": {
+                    "start": 116,
+                    "end": 121,
+                    "speed": 30,
+                    "actions": {
+                        "119": [{"class": "com.interrupt.dungeoneer.gfx.animation.ImpulseAction", "impulseVector": {"x": 0.09, "z": 0.03}}],
+                        "120": [{"class": "com.interrupt.dungeoneer.gfx.animation.DamageAction"}],
+                        "121": [{"class": "com.interrupt.dungeoneer.gfx.animation.StunAnimationAction", "attackDelay": 100}]
+                    }
+                },
+                "hurtAnimation": {"start": 122, "end": 125, "speed": 22},
+                "dieAnimation": {"start": 125, "end": 127, "speed": 30},
+                "spriteAtlas": "Dungeon_Sheet"
+			}
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+    "repeats": false,
+    "messages": [
+        [
+            "Look at the mess you've made! Why did you have to murder my clientele?",
+            "Now I will have to scrub all that blood. By myself, 'cause I'm guessin' you will not.",
+            "You know what? It doesn't matter.",
+			"Are you havin' anything?"
+        ],
+        [
+            "All that blood...disgusting. Anything else?"
+        ]
+    ]
+}
